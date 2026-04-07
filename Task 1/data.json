@@ -1,0 +1,40 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "title": "AI Project Demo",
+      "description": "Experience a featured AI solution designed to automate workflows and turn ideas into intelligent products.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&h=900&fit=crop",
+      "alt": "Artificial intelligence concept with glowing digital elements on a dark interface",
+      "buttonText": "View Project",
+      "buttonLink": "#projects"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Services",
+      "description": "Modern responsive website development with clean UI, solid performance, and accessible front-end interactions.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1600&h=900&fit=crop",
+      "alt": "Laptop showing code editor on a modern developer desk",
+      "buttonText": "Learn More",
+      "buttonLink": "#projects"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Solutions",
+      "description": "Cross-platform app experiences crafted for smooth navigation, strong branding, and better user engagement.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&h=900&fit=crop",
+      "alt": "Smartphone displaying a modern mobile application interface",
+      "buttonText": "Explore",
+      "buttonLink": "#projects"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design",
+      "description": "Thoughtful interface design focused on readability, interaction quality, and polished visual storytelling.",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1600&h=900&fit=crop",
+      "alt": "User interface mockups and wireframes arranged on a design workspace",
+      "buttonText": "Get In Touch",
+      "buttonLink": "#contact"
+    }
+  ]
+}

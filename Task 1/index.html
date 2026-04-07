@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern portfolio home page with a responsive, animated hero slider for featured projects and services.">
+    <meta name="keywords" content="portfolio, hero slider, projects, services, web development, UI UX">
+    <title>Dynamic Home Page with Hero Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a class="logo" href="#hero" aria-label="Go to homepage hero section">My Portfolio</a>
+            <nav class="nav-menu" aria-label="Primary navigation">
+                <a href="#hero">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section" aria-label="Featured projects slider">
+            <div class="slider-container">
+                <div class="slides-wrapper">
+                    <div id="slides" class="slides" aria-live="polite"></div>
+                </div>
+
+                <button class="slider-nav prev" id="prevBtn" type="button" aria-label="Show previous slide">
+                    <span class="arrow" aria-hidden="true">&#10094;</span>
+                </button>
+                <button class="slider-nav next" id="nextBtn" type="button" aria-label="Show next slide">
+                    <span class="arrow" aria-hidden="true">&#10095;</span>
+                </button>
+
+                <div class="slide-indicators" id="indicators" aria-label="Slide indicators"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">Featured Work</p>
+                    <h2>Projects and Services Highlighted in the Slider</h2>
+                    <p>These cards support the hero area and give visitors a quick summary of what you do before they explore the full portfolio.</p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>AI Project Demo</h3>
+                        <p>Interactive AI experience focused on automation, experimentation, and modern product thinking.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Web Development Services</h3>
+                        <p>Responsive website design and front-end development with performance, accessibility, and polish.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Mobile App Solutions</h3>
+                        <p>Cross-platform mobile interfaces built for smooth user journeys and scalable product growth.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>UI/UX Design</h3>
+                        <p>Clean, engaging interfaces with thoughtful interaction design and user-centered decisions.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">About This Task</p>
+                    <h2>What This Hero Slider Demonstrates</h2>
+                </div>
+                <p>This home page is designed to showcase front-end layout skills, animated transitions, responsive behavior, semantic HTML, and accessible keyboard-friendly interaction using HTML, CSS, JavaScript, and jQuery.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-panel">
+                <div>
+                    <p class="section-tag">Contact</p>
+                    <h2>Need a similar landing page or portfolio section?</h2>
+                    <p>Use this section as the final call to action for clients, recruiters, or collaborators visiting your portfolio.</p>
+                </div>
+                <a class="cta-button secondary" href="mailto:hello@example.com">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            <p>Built with HTML, CSS, JavaScript, and jQuery</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
