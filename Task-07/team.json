@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Khan",
+    "role": "Frontend Developer",
+    "image_url": "https://randomuser.me/api/portraits/men/1.jpg",
+    "bio": "Expert in React and UI design",
+    "social_links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sara Ahmed",
+    "role": "UI/UX Designer",
+    "image_url": "https://randomuser.me/api/portraits/women/2.jpg",
+    "bio": "Creative designer with modern UI skills",
+    "social_links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Usman Tariq",
+    "role": "Backend Developer",
+    "image_url": "https://randomuser.me/api/portraits/men/3.jpg",
+    "bio": "Handles server-side logic and APIs",
+    "social_links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }
+  }
+]

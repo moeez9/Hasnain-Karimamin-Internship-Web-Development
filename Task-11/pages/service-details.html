@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic service detail page.">
+    <title>Service Details | Professional Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="site-header compact">
+        <div class="container header-content">
+            <div>
+                <a class="back-link" href="../index.html"><i class="fa-solid fa-arrow-left"></i> Back to Services</a>
+                <h1>Service Details</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="errorMessage" class="error-message" hidden></div>
+
+        <div id="loading" class="loading-spinner" hidden>
+            <div class="spinner" aria-label="Loading service details"></div>
+        </div>
+
+        <div id="serviceDetails" class="details-container" aria-live="polite"></div>
+        <div id="relatedServices"></div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Professional Services. All rights reserved.</p>
+            <p>contact@services.com | +1-800-SERVICES</p>
+        </div>
+    </footer>
+
+    <script src="../js/services.js?v=3"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loadServiceDetail);
+    </script>
+</body>
+</html>

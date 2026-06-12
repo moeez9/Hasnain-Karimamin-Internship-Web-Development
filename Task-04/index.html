@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark/Light Mode Toggle</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="brand">
+        <h1>Theme Demo</h1>
+      </div>
+
+      <!-- Theme toggle button -->
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Activate dark mode"
+        aria-pressed="false"
+        title="Change theme"
+      >
+        <span class="theme-toggle__track">
+          <i class="fa-solid fa-sun theme-toggle__side-icon" aria-hidden="true"></i>
+          <span class="theme-toggle__thumb">
+            <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i>
+          </span>
+          <i class="fa-solid fa-moon theme-toggle__side-icon" aria-hidden="true"></i>
+        </span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Main content area -->
+    <section class="hero">
+      <p class="eyebrow">Persistent Dark and Light Theme</p>
+      <h2>Welcome to the Theme Demo</h2>
+      <p class="hero-copy">
+        Switch between light and dark mode. Your selected preference stays saved in local storage, even after refresh.
+      </p>
+    </section>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Card 1</h3>
+        <p>This card updates its background, text, and border colors based on the active theme.</p>
+        <button class="btn">Action Button</button>
+      </div>
+      <div class="card">
+        <h3>Card 2</h3>
+        <p>Smooth transitions and accessible contrast keep the interface readable in both modes.</p>
+        <button class="btn">Another Button</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Cards with Hover Effects</title>
+    <link rel="stylesheet" href="styles.css">
+    <noscript>
+        <style>
+            .card,
+            .card-button {
+                opacity: 1;
+                transform: none;
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+    <header class="page-header">
+        <p class="eyebrow">Digital Studio</p>
+        <h1>Services Built To Move Your Brand Forward</h1>
+        <p class="header-copy">Smooth animated cards with scroll reveal, slide-up motion, and polished hover interactions.</p>
+    </header>
+
+    <main>
+        <section class="cards-section" aria-label="Services">
+            <article class="card" data-index="0">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"></path>
+                        <path d="M9 18h6"></path>
+                        <path d="M9 6h6"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Web Design</h2>
+                    <p>Responsive layouts, clean visual systems, and conversion-focused pages for modern brands.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+
+            <article class="card" data-index="1">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="m16 18 6-6-6-6"></path>
+                        <path d="m8 6-6 6 6 6"></path>
+                        <path d="m14.5 4-5 16"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Development</h2>
+                    <p>Fast, accessible interfaces backed by maintainable code and reliable front-end behavior.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+
+            <article class="card" data-index="2">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"></path>
+                        <path d="M7.5 10.5h.01"></path>
+                        <path d="M12 7.5h.01"></path>
+                        <path d="M16.5 10.5h.01"></path>
+                        <path d="M9 15h6"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>UI/UX Design</h2>
+                    <p>Thoughtful user flows, clear hierarchy, and interfaces designed for real daily use.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+
+            <article class="card" data-index="3">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Security</h2>
+                    <p>Practical protection patterns that keep products safer without slowing teams down.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+
+            <article class="card" data-index="4">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M3 3v18h18"></path>
+                        <path d="M7 15v3"></path>
+                        <path d="M12 10v8"></path>
+                        <path d="M17 6v12"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Analytics</h2>
+                    <p>Clear dashboards and reporting tools that turn product activity into useful decisions.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+
+            <article class="card" data-index="5">
+                <div class="card-media">
+                    <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4.5 16.5c-1.5 1.26-2 4-2 4s2.74-.5 4-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09Z"></path>
+                        <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22 22 0 0 1-4 2Z"></path>
+                        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Growth</h2>
+                    <p>Campaign-ready experiences that help launch offers, test ideas, and scale faster.</p>
+                    <button type="button" class="card-button">Learn More</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

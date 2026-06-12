@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team | Professional Team Directory</title>
+    <meta name="description" content="Discover our talented team of professionals dedicated to delivering excellence. View detailed profiles, skills, and connect on social media.">
+    <link rel="icon" href="data:,">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-effect"></div>
+    
+    <header class="hero">
+        <div class="container">
+            <h1>Meet Our <span class="highlight">Exceptional</span> Team</h1>
+            <p>The talented individuals behind our success</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Team Grid -->
+        <div id="team-grid" class="team-grid">
+            <!-- Cards will be dynamically injected here -->
+        </div>
+
+        <!-- Modal Popup (Hidden by default) -->
+        <div id="profile-modal" class="modal" aria-hidden="true" role="dialog">
+            <div class="modal-overlay" id="modal-overlay"></div>
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn" aria-label="Close modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                
+                <!-- Navigation Buttons (Optional Advanced) -->
+                <button id="prev-profile" class="nav-btn prev-btn" aria-label="Previous profile">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="next-profile" class="nav-btn next-btn" aria-label="Next profile">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <div class="modal-body">
+                    <!-- Loading state -->
+                    <div id="modal-loading" class="loading-spinner">
+                        <i class="fa-solid fa-circle-notch fa-spin"></i>
+                    </div>
+
+                    <!-- Dynamic Content -->
+                    <div id="modal-details" class="modal-details hidden">
+                        <div class="profile-header">
+                            <div class="profile-img-container">
+                                <img id="modal-img" src="" alt="Profile Image" />
+                                <div class="pulse-ring"></div>
+                            </div>
+                            <div class="profile-title">
+                                <h2 id="modal-name"></h2>
+                                <p id="modal-role" class="role-badge"></p>
+                            </div>
+                        </div>
+
+                        <div class="profile-info">
+                            <div class="info-section">
+                                <h3>About</h3>
+                                <p id="modal-bio"></p>
+                            </div>
+
+                            <div class="info-section">
+                                <h3>Expertise</h3>
+                                <div id="modal-skills" class="skills-container">
+                                    <!-- Skills injected here -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-footer">
+                            <div id="modal-socials" class="social-links">
+                                <!-- Socials injected here -->
+                            </div>
+                            <button id="contact-btn" class="primary-btn">
+                                <i class="fa-regular fa-envelope"></i> Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic services listing powered by PHP, MySQL, and Fetch API.">
+    <title>Services | Professional Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div>
+                <p class="eyebrow">Professional Solutions</p>
+                <h1>Services</h1>
+                <p>Browse live services from MySQL with search, category filters, pagination, and detail pages.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="toolbar" aria-label="Service filters">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="searchInput" type="search" placeholder="Search by name, category, or keyword" autocomplete="off">
+            </div>
+            <div class="category-filters" id="categoryFilters">
+                <button class="filter-btn active" type="button" data-category="">
+                    <i class="fa-solid fa-layer-group"></i> All
+                </button>
+            </div>
+        </section>
+
+        <div id="errorMessage" class="error-message" hidden></div>
+
+        <div id="loading" class="loading-spinner" hidden>
+            <div class="spinner" aria-label="Loading services"></div>
+        </div>
+
+        <section class="services-grid" id="servicesGrid" aria-live="polite"></section>
+        <nav class="pagination" id="pagination" aria-label="Services pagination"></nav>
+
+        <section class="custom-quote">
+            <div>
+                <h2>Need a Custom Service?</h2>
+                <p>Share your requirements and we will prepare a tailored scope for your project.</p>
+            </div>
+            <a class="btn btn-secondary" href="mailto:contact@services.com?subject=Custom Service Quote">
+                <i class="fa-solid fa-paper-plane"></i> Get Quote
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Professional Services. All rights reserved.</p>
+            <p>contact@services.com | +1-800-SERVICES</p>
+        </div>
+    </footer>
+
+    <script src="js/services.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Pricing Plans</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Pricing Plans</p>
+        <h1>Flexible plans for every stage of your business.</h1>
+        <p>Choose a plan that suits your team with transparent pricing, powerful features, and a simple upgrade path.</p>
+      </div>
+      <div class="controls-panel">
+        <div class="toggle-group">
+          <span class="toggle-label">Billing</span>
+          <button class="toggle-button active" data-cycle="monthly">Monthly</button>
+          <button class="toggle-button" data-cycle="yearly">Yearly</button>
+        </div>
+        <div class="toggle-group">
+          <span class="toggle-label">Currency</span>
+          <div class="select-wrap">
+            <select id="currency-switcher" aria-label="Select currency">
+              <option value="USD" selected>USD</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+            </select>
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <div id="status-message" class="status-message">Loading pricing plans...</div>
+      <div id="pricing-grid" class="pricing-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

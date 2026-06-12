@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>StellarFlow | Smooth Scroll Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress" id="progressBar" aria-hidden="true"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="StellarFlow home">
+                <span class="logo-mark"><i class="fa-solid fa-star"></i></span>
+                Stellar<span>Flow</span>
+            </a>
+
+            <button
+                class="hamburger"
+                id="hamburgerBtn"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks"
+                type="button"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+                <li><a href="#gallery" class="nav-link" data-section="gallery">Gallery</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow">Modern Navigation Experience</p>
+                    <h1>Sticky, smooth, and scroll-aware from the first click.</h1>
+                    <p class="section-copy">
+                        Welcome to StellarFlow, where navigation feels fast, polished, and easy to follow across every section.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#services" class="cta-btn">Explore Services</a>
+                        <a href="#contact" class="secondary-btn">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="hero-panel">
+                    <div class="metric-card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>Fast interactions</span>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <i class="fa-solid fa-rocket card-icon"></i>
+                            <h3>Modern UX</h3>
+                            <p>Sticky navigation that stays useful while you browse.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-mobile-screen-button card-icon"></i>
+                            <h3>Responsive Layout</h3>
+                            <p>Desktop and mobile navigation patterns both work cleanly.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-arrows-up-down-left-right card-icon"></i>
+                            <h3>Smooth Scroll</h3>
+                            <p>Section jumps are replaced with fluid movement and active feedback.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <p class="eyebrow">About Us</p>
+                <h2>Built for clear movement through the page</h2>
+                <p class="section-copy">
+                    We craft immersive digital experiences with clean code, intuitive structure, and elegant interaction details.
+                    The navbar updates automatically based on the section currently in view, so users always know where they are.
+                </p>
+                <div class="info-banner">
+                    <i class="fa-solid fa-sparkles"></i>
+                    <strong>Core Values:</strong> Innovation, Simplicity, User-first thinking.
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <p class="eyebrow">Services</p>
+                <h2>What we build</h2>
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa-solid fa-code card-icon"></i>
+                        <h3>Web Development</h3>
+                        <p>Modern interfaces built with maintainable HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-pen-ruler card-icon"></i>
+                        <h3>UI and UX Design</h3>
+                        <p>Thoughtful layouts, strong hierarchy, and interactions that feel natural.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-gauge-high card-icon"></i>
+                        <h3>Performance SEO</h3>
+                        <p>Speed improvements and page structure that support visibility and usability.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-headset card-icon"></i>
+                        <h3>Support</h3>
+                        <p>Reliable maintenance and updates after launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <p class="eyebrow">Gallery</p>
+                <h2>Visual directions</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><i class="fa-solid fa-camera-retro"></i><span>Nature</span></div>
+                    <div class="gallery-item"><i class="fa-solid fa-palette"></i><span>Design</span></div>
+                    <div class="gallery-item"><i class="fa-solid fa-city"></i><span>Cityscape</span></div>
+                    <div class="gallery-item"><i class="fa-solid fa-lightbulb"></i><span>Creative</span></div>
+                    <div class="gallery-item"><i class="fa-solid fa-leaf"></i><span>Serenity</span></div>
+                    <div class="gallery-item"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Innovation</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <p class="eyebrow">Contact</p>
+                <h2>Let us build something smooth</h2>
+                <div class="contact-form">
+                    <div class="contact-row">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>hello@stellarflow.com</span>
+                    </div>
+                    <div class="contact-row">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+1 (555) 789-1234</span>
+                    </div>
+                    <div class="contact-row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Global Digital Hub</span>
+                    </div>
+                    <button class="fake-btn" id="contactBtn" type="button">Send Message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> 2025 StellarFlow | Sticky Navbar | Smooth Scroll | Active Highlight</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Team Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Meet Our Team</h1>
+        <p>Discover the talented individuals behind our success.</p>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by name, role, or skills...">
+                <button id="resetBtn" class="btn-reset" title="Clear Filters">✖</button>
+            </div>
+            <div class="filter-box" id="categoryFilters">
+                <button class="filter-btn active" data-role="All">All</button>
+                <button class="filter-btn" data-role="Developer">Developers</button>
+                <button class="filter-btn" data-role="Designer">Designers</button>
+                <button class="filter-btn" data-role="Manager">Managers</button>
+            </div>
+        </div>
+
+        <div id="teamGrid" class="team-grid">
+            <!-- Cards will be dynamically injected here -->
+        </div>
+
+        <div id="noResults" class="no-results hidden">
+            <div class="icon">🔍</div>
+            <h2>No team members found</h2>
+            <p>Try adjusting your search or filter criteria.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

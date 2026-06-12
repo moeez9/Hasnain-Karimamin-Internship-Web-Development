@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Hassan",
+    "role": "Lead Developer",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "bio": "Ali is a seasoned developer with over 10 years of experience in building scalable web applications. He leads our frontend engineering team and specializes in modern JavaScript frameworks.",
+    "skills": ["JavaScript", "React", "Node.js", "System Architecture"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fatima Noor",
+    "role": "UX/UI Designer",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "bio": "Fatima brings user-centered design to life. She focuses on creating intuitive, accessible, and beautiful interfaces for all our products, ensuring a seamless user experience.",
+    "skills": ["Figma", "UI Design", "User Research", "CSS"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Usman Tariq",
+    "role": "Data Scientist",
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "bio": "Usman translates complex data into actionable insights. He specializes in machine learning models, predictive analytics, and helping the team make data-driven decisions.",
+    "skills": ["Python", "Machine Learning", "SQL", "Data Visualization"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Aisha Khan",
+    "role": "Project Manager",
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "bio": "Aisha ensures all projects are delivered on time and within scope. She excels in agile methodologies, team coordination, and removing roadblocks for the engineering team.",
+    "skills": ["Agile", "Scrum", "Communication", "Leadership"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bilal Ahmed",
+    "role": "DevOps Engineer",
+    "image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "bio": "Bilal is the backbone of our deployment pipelines. He ensures our infrastructure is robust, secure, and highly available, focusing on automation and cloud architecture.",
+    "skills": ["AWS", "Docker", "Kubernetes", "CI/CD"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Zara Malik",
+    "role": "Marketing Specialist",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "bio": "Zara crafts compelling narratives around our products. She leads our digital marketing campaigns, SEO strategy, and community engagement initiatives.",
+    "skills": ["SEO", "Content Strategy", "Social Media", "Analytics"],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  }
+]

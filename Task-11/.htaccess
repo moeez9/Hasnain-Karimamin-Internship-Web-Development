@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /Task-11/
+
+RewriteRule ^services/?$ index.html [L]
+RewriteRule ^services/([a-z0-9-]+)/?$ pages/service-details.html?slug=$1 [L,QSA]

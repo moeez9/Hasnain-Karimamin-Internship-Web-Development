@@ -1,0 +1,54 @@
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "icon": "fa-solid fa-code",
+    "description": "Build modern, responsive web applications tailored to your business needs. We create scalable and performant solutions using current frontend and backend practices.",
+    "features": [
+      "Responsive design for all devices",
+      "Fast loading and optimized performance",
+      "SEO-friendly architecture",
+      "Secure and maintainable code",
+      "API integration and backend support"
+    ]
+  },
+  {
+    "id": "mobile-app-development",
+    "title": "Mobile App Development",
+    "icon": "fa-solid fa-mobile-screen-button",
+    "description": "Develop native and cross-platform mobile apps that feel polished, reliable, and easy to use across iOS and Android.",
+    "features": [
+      "Native iOS and Android development",
+      "Cross-platform solutions with React Native",
+      "User-friendly UI/UX design",
+      "Push notifications and analytics",
+      "App store optimization and deployment"
+    ]
+  },
+  {
+    "id": "ai-solutions",
+    "title": "AI Solutions",
+    "icon": "fa-solid fa-brain",
+    "description": "Use artificial intelligence to automate processes, uncover insights, and create smarter customer and internal workflows.",
+    "features": [
+      "Machine learning model development",
+      "Natural language processing",
+      "Computer vision applications",
+      "Predictive analytics",
+      "Custom AI chatbots and assistants"
+    ]
+  },
+  {
+    "id": "python-automation",
+    "title": "Python Automation",
+    "icon": "fa-brands fa-python",
+    "description": "Streamline operations and remove repetitive manual work with dependable Python scripts, integrations, and workflow tools.",
+    "features": [
+      "Business process automation",
+      "Data scraping and processing",
+      "Scheduled task automation",
+      "Integration with existing systems",
+      "Custom scripts and tools"
+    ]
+  }
+]
